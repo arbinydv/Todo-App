@@ -1,0 +1,29 @@
+<table class="table table-striped table-hover" >
+  <thead class="thead-dark">
+  <tr>
+    <th>Tasks</th>
+    <th>Priority</th>
+    <th>Urgency</th>
+    <th>Status</th>
+    <th>Category</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr>
+  <% @todolists.each do |todolist| %>
+  <td><%= todolist.Tasks %> </td>
+  <td><%= todolist.Priority %> </td>
+  <td><%= todolist.Urgency %> </td>
+  <td><%= todolist.Status %> </td>
+  <td><%= todolist.Category%> </td>
+
+  <td><%= link_to 'Show', todolist_path(todolist) %></td>
+  <td><%= link_to 'Edit', edit_todolist_path(todolist)%></td>
+  <td><%= link_to 'Delete', @todolist, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
+  </tr>
+  <% end %>
+
+  </table>
+<%= link_to "Add Task", new_todolist_path, class: "btn btn-secondary" %>

@@ -4,10 +4,4 @@ class HomeController < ApplicationController
 
   def about
   end
-
-  def task 
-  end
-
-  def tasks 
-  end
 end

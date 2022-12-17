@@ -1,0 +1,42 @@
+<%= form_with(model: todolist) do |form| %>
+  <% if todolist.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(todolist.errors.count, "error") %> prohibited this todolist from being saved:</h2>
+
+      <ul>
+        <% todolist.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :Tasks, style: "display: block" %>
+    <%= form.text_field :Tasks %>
+  </div>
+
+  <div>
+    <%= form.label :Priority, style: "display: block" %>
+    <%= form.text_field :Priority %>
+  </div>
+
+  <div>
+    <%= form.label :Urgency, style: "display: block" %>
+    <%= form.number_field :Urgency %>
+  </div>
+
+  <div>
+    <%= form.label :Status, style: "display: block" %>
+    <%= form.check_box :Status %>
+  </div>
+
+  <div>
+    <%= form.label :Category, style: "display: block" %>
+    <%= form.text_field :Category %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

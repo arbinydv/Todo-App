@@ -1,42 +1,43 @@
 <%= form_with(model: todolist) do |form| %>
   <% if todolist.errors.any? %>
-    <div style="color: red">
+    <div id="error_explanation">
       <h2><%= pluralize(todolist.errors.count, "error") %> prohibited this todolist from being saved:</h2>
 
       <ul>
-        <% todolist.errors.each do |error| %>
-          <li><%= error.full_message %></li>
+        <% todolist.errors.full_message.each do |message| %>
+          <li><%=message %></li>
         <% end %>
       </ul>
     </div>
   <% end %>
 
-  <div>
+  <div class="form-group">
+  <div class="field form-group"
     <%= form.label :Tasks, style: "display: block" %>
-    <%= form.text_field :Tasks %>
+    <%= form.text_field :Tasks, class:"form-control", placeholder:"Description" %>
   </div>
 
-  <div>
+  <div class="field form-group"
     <%= form.label :Priority, style: "display: block" %>
-    <%= form.text_field :Priority %>
+    <%= form.text_field :Priority, class:"form-control", placeholder:"High Low Medium" %>
   </div>
 
-  <div>
+  <div class="field form-group"
     <%= form.label :Urgency, style: "display: block" %>
-    <%= form.number_field :Urgency %>
+    <%= form.number_field :Urgency, class:"form-control", placeholder:"1-5" %>
   </div>
 
-  <div>
+  <div class="field form-group"
     <%= form.label :Status, style: "display: block" %>
     <%= form.check_box :Status %>
   </div>
 
-  <div>
+  <div class="field form-group"
     <%= form.label :Category, style: "display: block" %>
-    <%= form.text_field :Category %>
+    <%= form.text_field :Category, class:"form-control" %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class:'btn btn-secondary'%>
   </div>
 <% end %>

@@ -1,24 +1,23 @@
-# README
+##### Prerequisites
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The setups steps expect following tools installed on the system.
 
-Things you may want to cover:
+- Github
+- Ruby [3.x](https://github.com/organization/project-name/blob/master/.ruby-version#L1)
+- Rails [7.x](https://github.com/organization/project-name/blob/master/Gemfile#L12)
 
-* Ruby version
+##### 1. Check out the repository
 
-* System dependencies
+```bash
+git clone git@github.com:arbinydv/Todo-app.git
+```
+##### 2. Setting up local development environment
 
-* Configuration
 
-* Database creation
+You can start the rails server using the command given below.
 
-* Database initialization
+```ruby
+bundle exec rails s
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And now you can visit the site with the URL http://localhost:3000

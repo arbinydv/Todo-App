@@ -7,24 +7,21 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
-    <li class="nav-item">
-      <%= link_to 'About', home_about_path, class:"nav-link"%>
-    </li>
     <% if user_signed_in? %>
       <li class="nav-item">
-      <%= link_to 'AddTask', new_todolist_path, class:"nav-link"%>
-      </li>
       <li class="nav-item">
       <%= link_to 'View', todolists_path, class:"nav-link"%>
       </li>
+      <%= link_to 'AddTask', new_todolist_path, class:"nav-link"%>
+      </li>
+    
       <li class="nav-item">
       <%= link_to "Edit Profile", edit_user_registration_path, class:"nav-link" %>
     </li>
 
 
       <li class="nav-item">
-      <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class:"btn btn-light" %>
+      <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class:" text-danger btn btn-light" %>
       </li>
     
     <% else %>
@@ -36,6 +33,9 @@
         <%= link_to "Sign In", new_user_session_path, class:"nav-link" %>
       </li>
     <% end %>
+    <li class="nav-item">
+    <%= link_to 'About', home_about_path, class:"nav-link"%>
+  </li>
     </ul>
   </div>
 </nav>

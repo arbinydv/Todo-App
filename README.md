@@ -1,24 +1,29 @@
-# README
+### Todo App webapp 
+##### A common place for all your important tasks that needs to be done. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###### overview 
+![my screenshot](webapp.png)
 
-Things you may want to cover:
+##### Prerequisites
 
-* Ruby version
+The setups steps expect following tools installed on the system.
 
-* System dependencies
+- Github
+- Ruby [3.x](https://github.com/organization/project-name/blob/master/.ruby-version#L1)
+- Rails [7.x](https://github.com/organization/project-name/blob/master/Gemfile#L12)
 
-* Configuration
+##### 1. Check out the repository
 
-* Database creation
+```bash
+git clone git@github.com:arbinydv/Todo-app.git
+```
+##### 2. Setting up local development environment
 
-* Database initialization
 
-* How to run the test suite
+You can start the rails server using the command given below.
 
-* Services (job queues, cache servers, search engines, etc.)
+```ruby
+bundle exec rails s
+```
 
-* Deployment instructions
-
-* ...
+And now you can visit the site with the URL http://localhost:3000

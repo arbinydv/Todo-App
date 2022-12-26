@@ -65,6 +65,6 @@ class TodolistsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def todolist_params
-      params.require(:todolist).permit(:Tasks, :Priority, :Urgency, :Status, :Category)
+      params.require(:todolist).permit(:Tasks, :Priority, :Urgency, :Active, :Category)
     end
 end

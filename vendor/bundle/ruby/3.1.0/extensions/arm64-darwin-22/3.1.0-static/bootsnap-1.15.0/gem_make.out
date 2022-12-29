@@ -1,0 +1,15 @@
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+/Users/arbinyadav/.rubies/ruby-3.1.3/bin/ruby -I /Users/arbinyadav/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-ur1ydb sitelibdir\=./.gem.20221229-20906-ur1ydb clean
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-ur1ydb sitelibdir\=./.gem.20221229-20906-ur1ydb
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-ur1ydb sitelibdir\=./.gem.20221229-20906-ur1ydb install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20221229-20906-ur1ydb/bootsnap

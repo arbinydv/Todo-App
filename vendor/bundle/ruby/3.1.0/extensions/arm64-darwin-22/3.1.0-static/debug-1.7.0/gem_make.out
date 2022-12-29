@@ -1,0 +1,16 @@
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+/Users/arbinyadav/.rubies/ruby-3.1.3/bin/ruby -I /Users/arbinyadav/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-uqzozk sitelibdir\=./.gem.20221229-20906-uqzozk clean
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-uqzozk sitelibdir\=./.gem.20221229-20906-uqzozk
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-uqzozk sitelibdir\=./.gem.20221229-20906-uqzozk install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20221229-20906-uqzozk/debug

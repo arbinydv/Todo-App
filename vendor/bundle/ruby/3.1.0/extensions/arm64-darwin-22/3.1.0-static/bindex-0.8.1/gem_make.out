@@ -1,0 +1,15 @@
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/arbinyadav/.rubies/ruby-3.1.3/bin/ruby -I /Users/arbinyadav/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-258qt9 sitelibdir\=./.gem.20221229-20906-258qt9 clean
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-258qt9 sitelibdir\=./.gem.20221229-20906-258qt9
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/arbinyadav/Desktop/Projects/todo-apps/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20221229-20906-258qt9 sitelibdir\=./.gem.20221229-20906-258qt9 install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20221229-20906-258qt9/skiptrace/internal

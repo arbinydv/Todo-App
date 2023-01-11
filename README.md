@@ -2,7 +2,7 @@
 #### A common place for all your important tasks that need to be done. 
 
 #### overview 
-Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Control pattern.
+Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Control pattern. This Project has used MVC and CRUD concepts of the ruby on rails techstack.
 ![my screenshot](webapp.png)
 
 #### Prerequisites

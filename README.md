@@ -9,7 +9,7 @@ Rails is a web-application framework that includes everything needed to create d
 
 Before you onboard the rails flight make sure you have following tools installed in your system.
 
-- Ruby 3.x
+- Ruby 3.2.x
 - Rails 7.x
 
 #### 1. Check out the repository
